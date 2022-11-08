@@ -10,7 +10,6 @@ public class Mac_10 : MonoBehaviour
     private Culata _culata;
     private Mira _mira;
     private Proveedor _proveedor;
-
     public void SetComponents(Canon canon, Cuerpo cuerpo, Culata culata, Mira mira, Proveedor proveedor)
     {
         _canon = canon;

@@ -129,10 +129,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1fa81c2a3d4a242a4252a1d8984dc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mac10: {fileID: 7526396062440124241, guid: fd4ca56e413050942b51c9fc3818047d, type: 3}
   cuerpoA: {fileID: -5560137044817335996, guid: 7ad9b212153039e419e4471dc3f1b62e, type: 3}
   cuerpoB: {fileID: -8666501266965154140, guid: c907d472949feee43b635f603c585f6c, type: 3}
-  canonA: {fileID: 8969607165651248597, guid: 5b9423017364b2e4fb5ef352b750c665, type: 3}
-  canonB: {fileID: 2377531581307175464, guid: 8f321e5e048b4aa4881b4324600c1f79, type: 3}
+  canonA: {fileID: 5380551511631733290, guid: 5b9423017364b2e4fb5ef352b750c665, type: 3}
+  canonB: {fileID: 5727071664916780959, guid: 8f321e5e048b4aa4881b4324600c1f79, type: 3}
   culataA: {fileID: 7921595190540588045, guid: a3b18ef47d5a84c4f9246fe32cc3a885, type: 3}
   culataB: {fileID: 1388561081304225766, guid: b8df35fe6c9585c46b049cf5e9de0037, type: 3}
   miraA: {fileID: 800598305709499793, guid: 277e9228553666f46ad5a40f39a88167, type: 3}

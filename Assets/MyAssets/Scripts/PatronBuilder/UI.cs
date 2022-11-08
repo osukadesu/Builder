@@ -28,10 +28,20 @@ public class UI : MonoBehaviour
     [SerializeField] private Button btnProveedorB;
     [SerializeField] private Button btnBuild;
     private Mac_10_Builder builder;
+    private void Start()
+    {
+        CuerpoAPressed();
+        CanonAPressed();
+        CulataAPressed();
+        MiraAPressed();
+        ProveedorAPressed();
+        builder.MacPrefab(mac_10);
+        BuildPressed();
+    }
     private void Awake()
     {
-        builder = new Mac_10_Builder();
 
+        builder = new Mac_10_Builder();
 
         btnCuerpoA.onClick.AddListener(CuerpoAPressed);
         btnCuerpoB.onClick.AddListener(CuerpoBPressed);
@@ -48,9 +58,11 @@ public class UI : MonoBehaviour
         btnProveedorA.onClick.AddListener(ProveedorAPressed);
         btnProveedorB.onClick.AddListener(ProveedorBPressed);
 
+        builder.MacPrefab(mac_10);
+
         btnBuild.onClick.AddListener(BuildPressed);
 
-        builder.MacPrefab(mac_10);
+
     }
     private void BuildPressed()
     {
